@@ -1,0 +1,25 @@
+{
+    "valid": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "12345"
+    },
+    "missingFirstName": {
+        "firstName": "",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "error": "Error: First Name is required"
+    },
+    "missingLastName": {
+        "firstName": "John",
+        "lastName": "",
+        "postalCode": "12345",
+        "error": "Error: Last Name is required"
+    },
+    "missingPostalCode": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "",
+        "error": "Error: Postal Code is required"
+    }
+}

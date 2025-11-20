@@ -1,3 +1,4 @@
+## Context
 - Consider you as expert in automation and you are going to help me to write a test script for saucelabs demo site.
 - Write a test script for saucelabs demo site.
 - Follow the project structure and always use javascript es modules.
@@ -9,9 +10,6 @@
 
 ## Now functionality to be tested
 - Use standar user to test login then 
-- Check 6 cards are display with title, description, image, price, add to cart button.
-- Click on add to cart button of first card.
-- Click on cart icon to navigate to cart page.
-- Verify that first card is added to cart.
+- check end to end flow of shopping from saucelabs demo site.
 
 Using above information create a script and test cases. Also check for negative scenarios.

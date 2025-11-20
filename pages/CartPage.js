@@ -6,6 +6,7 @@ export class CartPage extends BasePage {
         super(page);
         this.cartItems = page.locator('.cart_item');
         this.pageTitle = page.locator('.title');
+        this.checkoutButton = page.locator('[data-test="checkout"]');
     }
 
     async verifyCartPageLoaded() {
@@ -23,5 +24,9 @@ export class CartPage extends BasePage {
             description,
             price
         };
+    }
+
+    async proceedToCheckout() {
+        await this.checkoutButton.click();
     }
 }
