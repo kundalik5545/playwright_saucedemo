@@ -1,0 +1,10 @@
+# AI Rules
+
+This file contains rules for AI assistants working on this project.
+
+1. **Code Style**: Use standard JavaScript with ES6+ features.
+2. **Playwright**: Use the Page Object Model (POM) for all tests.
+3. **Selectors**: Prefer user-facing attributes (text, role, label) over CSS classes or IDs where possible. Use `data-test` attributes if available.
+4. **Assertions**: Use `expect` from `@playwright/test`.
+5. **Comments**: Add comments for complex logic, but keep code self-documenting.
+6. **Environment**: Respect the environment configuration (QA, Dev, Prod).
